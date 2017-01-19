@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Data Visualisation</title>
+	</head>
+	<body>
+		<header>
+			<h1> <a href = "index.html">Welcome to the World of Data Visualisation</a> </h1>
+			<nav>
+				<ul>
+		    		<li><a href = "common-techniques.html"> Common Techniques</a></li>
+		    		<li><a href = "common-software.html">Common Software</a></li>
+		    		<li><a href = "academic-research.html">Academic Research</a></li>
+		    		<li><a href = "other-online-sources.html">Other online resources</a></li>
+		    		<li><a href = "contact-form.html">Contact Form</a></li>
+		  		</ul>
+			</nav>
+		</header>
+		<article>
+
+			<h1>Introduction to Data Visualisation</h1>
+
+			<video controls="controls" preload="metadata">
+				<source src="video/whatisdatavisualization.mp4" type="video/mp4">
+				<source src="video/whatisdatavisualization.webm" type="video/webm">
+			</video>
+			<p>
+				<a href="video/whatisdatavisualization.mp4">Download the Video</a>
+			</p>
+
+			<figure> <!--HTML text element no.1-->
+				<img src="img/indeximg1.jpg" alt="Four representations of elevation data of Mt. Helen"/>
+				<figcaption>Four representations of elevation data of Mt. Helen</figcaption><!--HTML text element no.2-->
+				<figcaption><cite>https://upload.wikimedia.org/wikipedia/commons/e/e1/Mount_St._Helens_elevation_data.jpg</cite></figcaption>
+			</figure>
+
+			<p>There are numerorus methods by which society presents and understands data. In football, a player's skills may be represented by the amount of goals he/she has scored. In investment banking, a banker's portfolio may be presented by the amount of money he/she has made in a certain amount of time. Some may be useful and others may not be. <strong>Data visualisation </strong> is the way in which this data is presented to be more visually appealing and understandable. <strong><dfn>Data Visualisation</dfn></strong> is defined as the creation and study of the visual representation of data. The key purpose of data visualtion is for the public to clearly understand data that is shown visually. Data can be presented in numerous ways which we will view on this website. </p><!--HTML text element no.3 = <p>, no.4 = <strong>, no.5 = <dfn>-->
+			<section>
+				<h2>Effective Data Visualisation</h2>
+				<p>
+					The point of Data Visualisation is to present data in the form of graphics and images. Viewers need to efficiently comprehend these graphics. In Edward Tufte's book from 1983, <cite>The Visual Display of Quantitative Information</cite>, states <q> Excellence in statistical graphics consists of complex ideas communicated with clarity, precision and efficiency.</q> <!--HTML text element no.6 = <cite>, no.7 = <q>-->
+				</p>
+				<p>
+					There are numerous components that graphical displays should contain in order to be effective. Edward Tufte also stated <blockquote cite="https://en.wikipedia.org/wiki/Data_visualization#Characteristics_of_effective_graphical_displays"> Graphical displays should:<!--HTML text element no.8 = <blockquote>-->
+					<ul>
+			    		<li>show data</li>
+			    		<li>induce the viewer to think about the substance rather than about methodology, graphic design, the technology of graphic production or something else</li>
+			    		<li>avoid distorting what the data has to say</li>
+			    		<li>present many numbers in a small space</li>
+			    		<li>make large data sets coherent</li>
+			    		<li>encourage the eye to compare different pieces of data</li>
+			    		<li>reveal the data at several levels of detail, from a broad overview to the fine structure</li>
+			    		<li>serve a reasonably clear purpose: description, exploration, tabulation or decoration</li>
+			    		<li>be closely integrated with the statistical and verbal descriptions of a data set.</li>
+			  		</ul>
+			  		</blockquote>
+		  		</p>
+			</section>
+			<section>
+				<h2>Strategy Over Tools</h2>
+				<p>In this day and age, the amount of data that needs to be viewed is huge. When the constraints of limited space and time kicks in, <em>strategy</em> is more important than the software or tools that are used for data visualisation. Therefore, it is important to know some core details.</p><!--HTML text element no.9 = <em>-->
+
+				<p><mark>Firstly</mark>, what is the data that needs to be represented visually? Is there a timeline where the data needs to be shown? Or does it involve 2, 3 or n number of dimensions?<mark>Secondly</mark>, who is the audience? Are you presenting to children or adults? Are you visually displaying the data to artists, programmers, or financial experts?  In order for any upper-level management to make sense of the enourmous amount of work they do, it is important to be able to manage it visuallly. There are many attributes that apply to the data. Decisions need to be made quick and effectively. In order for these decisions to be made, data needs to be viewed and analysed. In order to do this, data will need to be presented visually strategically. </p><!--HTML text element no.10 = <mark>-->
+
+				<h3>Conceptual vs Data-driven</h3>
+				<p>First we need to know what information we have. Information can lie in the spectrum of two categories. It can either be based on facts or ideas. It can be quantitative or qualitative. Information could either be <em>Data-driven</em> or <em>Conceptual</em>. </p>
+
+				<p>Data-driven information is based on facts and statistics. It represents numbers and is able to give exact values on the information that is needed. Examples could include revenues earned in the past two years, amount of customers that purchase goods in a month, or traffic statistics for a website.</p>
+				
+				<p>Conceptial information is based on ideas. It represents different methods and ideas that could be used for the person/organisation of interest. Examples include how a organisation is structured, what ideas could help increase revenue, and what ideas could increase traffic for a website. </p>
+
+				<figure>
+					<table> <!--use of table-->
+						<thead> <!-- table head -->
+							<tr>
+								<th scope="col"></th>
+								<th scope="col">Conceptual</th>
+								<th scope="col">Data-driven</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Focus:</td>
+								<td>Ideas</td>
+								<td>Statistics</td>
+							</tr>
+						</tbody>
+					</table>
+				</figure>
+
+				<h3>Declarative vs Exploratory</h3>
+				<p>Second we need to know how to present this information we have. We can do this by either being <em>declaritive</em> or <em>exploratory</em>. </p>
+				<p>Declarative presentation involves communicating information. It involves documenting and designing the data, that is present, to let your audience know what exactly going. Examples include letting your organisation what the budget is and how it was used. Another example could be presenting traffic of your website and different dates of when traffic had dropped or risen.</p>
+				<p>Exploratory presentation involves prototyping and interacting with your data to present your information. It involves the process of trying to figure something out. Examples could include the methods that increased traffic on a website or what steps had increased profit from the past year of an organisation. </p>
+
+				<figure>
+					<table>
+						<thead> <!-- table head -->
+							<tr>
+								<th scope="col"></th>
+								<th scope="col">Declarative</th>
+								<th scope="col">Exploratory</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Focus:</td>
+								<td>Documenting</td>
+								<td>Prototyping</td>
+							</tr>
+						</tbody>
+					</table>
+				</figure>
+
+				<h3>Using the Four Components</h3>
+				<p>The information and presentation components (Conceptual, data-driven, declarative, exploratory) combine in a graph to express four types of visual communication: idea illustration, idea generation, visual discovery, and everyday dataviz.</p>
+				<figure>
+					<img src="img/4types.png" alt="Graph of four types of Data Visualisation" />
+					<figcaption>Graph of nature and purpose components to represent four types of visual communication</figcaption>
+					<figcaption><cite>https://hbr.org/resources/images/article_assets/2016/05/R1606H_BERINATO_B.png</cite></figcaption>
+				</figure>
+
+				<h4>Idea Illustration</h4>
+				<p>Idea illustration involves being more declaritive and conceptial with your visual information. This is a common approach consultants use to present their ideas. It lies on the upper-left of the graph above. Idea illustration involves presentations and teaching to implement ideas to the audience. </p>
+
+				<h4>Idea Generation</h4>
+				<p>Idea generation involves being exploratory and conceptial with your information. There are undefined goals and is often complex to implement. Through brainstorming, and working as a team, new ideas are able to get created and presented to the audience. Idea generation lies on the lower-left of the graph.</p>
+
+				<h4>Visual Discover</h4>
+				<p>Visual Discovery involves being exploratory and data-driven. It lies on the lower-right area of the graph. It involves large amounts of data and making experimenting with them to get your message accross. Through programming and business intelligence, future decisions and trend analysis could be made. It is almost like predicting the future with the data that is available. </p>
+
+				<h4>Everyday Dataviz</h4>
+				<p>Everyday Dataviz involves being declarative and data-driven. It lies on the upper-right area of the graph. It is the most straight forward method of data visualisation, due to the data that needs to be used and it has to be documented by being declarative. The visualisation will usually present a single message. </p>
+
+			</section>
+			<section>
+				<h2></h2>
+				<p>Now that a better understanding of data visualisation is obtained, please check out the rest of the website to learn more. A lot of information is available. </p>
+
+				<address>
+					<p>Feel free to contact us through our <a href = "contact-form.html">contact form</a>.</p>
+				</address><!--HTML text element no.11 = <address>-->
+			</section>
+		</article>
+
+		<aside>
+			<p>Are you looking for Data Visualisation experts to help you with your business? Click <a href="https://www.upwork.com/o/profiles/browse/?q=data%20visualization%20designer%20infographics">here</a> to find freelancers who could help with your needs. </p>
+		</aside>
+
+		<footer>
+			<p><small>&copy 2016 NISHANT TECKCHANDANI CSD 2500 COURSEWORK 2, ALL RIGHTS RESERVED</small><!--HTML text element no. 12 = <small>-->
+			<small><time datetime ="2016-12-18" pubdate="pubdate">December 18th, 2016</small></time></p><!--HTML text element no.13 = <time>-->
+
+		</footer>
+	</body>
+</html>
+
+<!--HTML text element no.1 (index.html)-->
+<!--HTML text element no.2 (index.html)-->
+<!--HTML text element no.3 = <p>, no.4 = <strong>, no.5 = <dfn> (index.html)-->
+<!--HTML text element no.6 = <cite>, no.7 = <q> (index.html)-->
+<!--HTML text element no.8 = <blockquote> (index.html)-->
+<!--HTML text element no.9 = <em> (index.html)-->
+<!--HTML text element no.10 = <mark> (index.html)-->
+<!--HTML text element no.11 = <address>-->
+<!--HTML text element no. 12 = <small> (index.html)-->
+<!--HTML text element no.13 = <time> (index.html)-->
+<!--HTML text element no. 14 = <abbr> (academic-research.html)-->
+<!--HTML text element no.15 = <code> (common-techniques.html_-->

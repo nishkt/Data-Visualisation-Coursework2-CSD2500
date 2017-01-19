@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contact Form</title>
+	</head>
+	<body>
+		<header>
+			<h1> <a href = "index.html">Welcome to the World of Data Visualisation</a> </h1>
+			<nav>
+				<ul>
+		    		<li><a href = "common-techniques.html"> Common Techniques</a></li>
+		    		<li><a href = "common-software.html">Common Software</a></li>
+		    		<li><a href = "academic-research.html">Academic Research</a></li>
+		    		<li><a href = "other-online-sources.html">Other online resources</a></li>
+		    		<li><a href = "contact-form.html">Contact Form</a></li>
+		  		</ul>
+			</nav>
+		</header>
+
+		<article>
+			<section>
+				<p>
+				<h1>Contact Form</h1>
+					<form method = "post">
+						<fieldset name = "personalDetails">
+							<input type = "text" id = "firstname" name ="firstname" placeholder ="Enter your first name" /><!--HTML form type 1 = text-->
+							<input type = "text" id = "lastname" name ="lastname" placeholder ="Enter your last name" />
+							<input type = "email" id = "email" name ="email" placeholder ="Enter your email address" required /><!--HTML form type 2 = email-->
+							<input type = "tel" id = "telephone" name ="telephone" placeholder ="Enter your telephone number" /><!--HTML form type 3 = telephone-->
+							Date of Birth: <input type = "date" id = "dob" name ="dob" placeholder ="Date of Birth" />
+						</fieldset>
+						<fieldset class="gender">
+							<p>Gender:
+								<input type = "radio" id = "gender_male" name ="gender" value="male"/><!--HTML form type 4 = radio-->
+								<label for = "gender_male">Male</label>
+								<input type ="radio" id = "gender_female" name = "gender" value = "female" />
+								<label for = "gender_female">Female</label>
+								<input type ="radio" id = "gender_other" name = "gender" value = "other" />
+								<label for = "gender_other">Other</label>
+							</p>
+						</fieldset>
+						<fieldset name="textarea">
+							<p>
+								Your Message:
+								<textarea id="contactmessage" name ="message" class = "large"></textarea><!--HTML form type 5 = textarea-->
+							</p>
+						</fieldset>
+						<fieldset>
+							<p>
+								Reason for contact:
+								<input type = "checkbox" id="reason1" name="reason1"/>I want to know more about Data Visualisation<!--HTML form type 6 = checkbox-->
+								<input type = "checkbox" id="reason2" name="reason2"/>I want to add more information on your website
+								<input type = "checkbox" id="reason3" name="reason3"/>Other
+							</p>
+						</fieldset>
+						<fieldset>
+							<p>If you would like to become a member, please provide a password below. Your email or phone number above will be the user ID</p>
+							Password:
+							<input type = "password" id="password" name="password"/><!--HTML form type 7 = password-->
+							Repeat the password:
+							<input type = "password" id="passwordcheck" name="passwordcheck"/>
+						</fieldset>
+						<fieldset>
+							<input type = "submit" class = "sendMessage" value = "Send Message"/><!--HTML form type 8 = submit-->
+						</fieldset>
+
+					</form>
+				</p>
+			</section>
+		</article>
+
+		<aside>
+			<p>Are you looking for Data Visualisation experts to help you with your business? Click <a href="https://www.upwork.com/o/profiles/browse/?q=data%20visualization%20designer%20infographics">here</a> to find freelancers who could help with your needs. </p> 
+		</aside>
+
+		<footer>
+			<p><small>&copy 2016 NISHANT TECKCHANDANI CSD 2500 COURSEWORK 2, ALL RIGHTS RESERVED</small><!--HTML text element no. 12 = <small>-->
+			<small><time datetime ="2016-12-18" pubdate="pubdate">December 18th, 2016</small></time></p><!--HTML text element no.13 = <time>-->
+		</footer>
+
+	</body>
+</html>
