@@ -1,4 +1,4 @@
-# Data-Visualisation-Coursework2-CSD2500
+# Data-Visualisation-Website
 Front-end class project
 
 This is a website being created on the topic of Data-Visualisation. All information, content (pictures, videos, texts) have been sited on the HTML files. 
