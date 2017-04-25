@@ -3,86 +3,113 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Data Visualisation Common Software</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
 	<body>
-		<header>
-			<h1> <a href = "index.html">Welcome to the World of Data Visualisation</a> </h1>
-			<nav>
-				<ul>
-		    		<li><a href = "common-techniques.html"> Common Techniques</a></li>
-		    		<li><a href = "common-software.html">Common Software</a></li>
-		    		<li><a href = "academic-research.html">Academic Research</a></li>
-		    		<li><a href = "other-online-sources.html">Other online resources</a></li>
-		    		<li><a href = "contact-form.html">Contact Form</a></li>
-		  		</ul>
-	  		</nav>
-		</header>
-		<article>
-		<!--for img incue cps an ddescription--> 
-		<h1>Common Data Visualisation Software </h1>
-			<section>
-			<h2>Desktop Software</h2>
-				<section>
-					<h3>Tableau</h3>
-					<figure>
-						<cite><img src="img/TableauLogo.jpg" alt="Tableau Logo" /></cite>
-						<figcaption>https://tableau.lcsexams.com/images/TableauLogo.jpg</figcaption>
-					</figure>
-					<p><em>Tableau</em> helps users create and share data insights across your organisation. Through the use of various graph types and data organisers, users will be able to present data on many different platforms through the Tableau Server. For more information access the Tableau webpage <a href = "www.tableau.com">here!</a> </p>
-				</section>
-				<section>
-					<h3>TIBCO Spotfire</h3>
-					<figure>
-						<cite><img src="img/spotfire-logo.png" alt="Spotfire Logo" /></cite>
-						<figcaption>http://www.habanerodata.net/wp-content/uploads/2014/05/Spotfire.png</figcaption>
-					</figure>
-					<p>TIBCO Spotfire is another software that helps create and share data visualisation techniques with numerous users. Users could be based at home, professional atmospheres, or non-profit organisations. For more information on the specifics of TIBCO Spotfire, click <a href="www.spotfire.tibco.com"> here</a></p>
-				</section>
-				<section>
-					<h3>qlik</h3>
-					<figure>
-						<cite><img src="img/qlik-logo.png" alt="Qlik Logo" /></cite>
-						<figcaption>http://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png?h=104&w=336&la=en&hash=39A8170194871041E4D0613C94693254962A941F</figcaption>
-					</figure>
-					<p>Qlik lets users create visualisations and makes the data in a company more understandable. For more information, click <a href="www.qlik.com">here</a></p>
-				</section>
-			</section>
-			<section>
-				<h2>Development Library</h2>
-				<section>
-					<h3>D3JS</h3>
-					<figure>
-						<cite><img src="img/d3js-logo.png" alt="D3JS Logo" /></cite>
-						<figcaption>https://www.pubnub.com/wp-content/uploads/2014/01/D3.js-Logo.png</figcaption>
-					</figure>
-					<p>D3JS, also know as D3.js or Data-Driven Documents js, is a JavaScript library used to organise documents based on data that the user provides. Through the use of HTML, SVG, and CSS, D3JS is able bring data to life in a comprehensible and coherent way. For more information on D3JS, click <a href="www.d3js.org">here</a> </p>
-				</section>
-				<section>
-					<h3>Vega (Github)</h3>
-					<figure>
-						<cite><img src="img/vegagithub-logo.png" alt="Github Logo" /></cite>
-						<figcaption>https://crossbrowsertesting.com/design/images/github-logo.png</figcaption>
-					</figure>
-					<p>Vega, brought to you by github, is a library used to create, save, and share data visualisation designs in the output form of HTML5 Canvas and SVG. For more information on Vege, click <a href="vega.github.io">here</a></p>
-				</section>
-				<section>
-					<h3>Processing</h3>
-					<figure>
-						<cite><img src="img/processinglogo.jpg" alt="Processing Logo" /></cite>
-						<figcaption>https://forum.processing.org/processing-org.jpg</figcaption>
-					</figure>
-					<p>Processing is a software and laguage for learning how to code under the context of visual arts. Processing is a software that integrates the uses of visual data with programming to maximize the understanding of data. For more information on Processing, click <a href="www.processing.org">here</a></p>
-				</section>
-			</section>
-		</article>
+		<!--Beggining of the page-->
+		<div id="page">
+			<!--Beggining of the nav-->
+			<div id="navigation">
+				<header>
+					<h1>Data Visualisation</h1>
+					<nav>
+						<ul>
+							<li><a href = "index.html">Home</a></li>
+				    		<li><a href = "common-techniques.html"> Common Techniques</a></li>
+				    		<li><a href = "common-software.html" class = "active">Common Software</a></li>
+				    		<li><a href = "academic-research.html">Academic Research</a></li>
+				    		<li><a href = "other-online-sources.html">Other online resources</a></li>
+				    		<li><a href = "contact-form.html">Contact Form</a></li>
+				  		</ul>
+					</nav>
+				</header>
+			</div>
+			<!--End of nav-->
+			<div class="clearfix">
+				<div class="body">
+					<article>
+					<!--for img incue cps an ddescription--> 
+					<h1>Common Data Visualisation Software </h1>
+						<section>
+							<h2>Desktop Software</h2>
+							<section class="software">
+								<h3>Tableau</h3>
+								<figure>
+									<cite><img src="img/TableauLogo.jpg" alt="Tableau Logo" /></cite>
+									<figcaption>https://tableau.lcsexams.com/images/TableauLogo.jpg</figcaption>
+								</figure>
+								<p><em>Tableau</em> helps users create and share data insights across your organisation. Through the use of various graph types and data organisers, users will be able to present data on many different platforms through the Tableau Server. For more information access the Tableau webpage <a href = "www.tableau.com">here!</a> </p>
+							</section>
+							<section class="software">
+								<h3>TIBCO Spotfire</h3>
+								<figure>
+									<cite><img src="img/spotfire-logo.png" alt="Spotfire Logo" /></cite>
+									<figcaption>http://www.habanerodata.net/wp-content/uploads/2014/05/Spotfire.png</figcaption>
+								</figure>
+								<p>TIBCO Spotfire is another software that helps create and share data visualisation techniques with numerous users. Users could be based at home, professional atmospheres, or non-profit organisations. For more information on the specifics of TIBCO Spotfire, click <a href="www.spotfire.tibco.com"> here</a></p>
+							</section>
+							<section class="software">
+								<h3>qlik</h3>
+								<figure>
+									<cite><img src="img/qlik-logo.png" alt="Qlik Logo" /></cite>
+									<figcaption>http://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png?h=104&w=336&la=en&hash=39A8170194871041E4D0613C94693254962A941F</figcaption>
+								</figure>
+								<p>Qlik lets users create visualisations and makes the data in a company more understandable. For more information, click <a href="www.qlik.com">here</a></p>
+							</section>
+						</section>
+						<div class="clearfix"></div><!--Used to seperate the two sections (Desktop Software and Development library)-->
+						<section>
+							<h2>Development Library</h2>
+							<section class="software">
+								<h3>D3JS</h3>
+								<figure>
+									<cite><img src="img/d3js-logo.png" alt="D3JS Logo" /></cite>
+									<figcaption>https://www.pubnub.com/wp-content/uploads/2014/01/D3.js-Logo.png</figcaption>
+								</figure>
+								<p>D3JS, also know as D3.js or Data-Driven Documents js, is a JavaScript library used to organise documents based on data that the user provides. Through the use of HTML, SVG, and CSS, D3JS is able bring data to life in a comprehensible and coherent way. For more information on D3JS, click <a href="www.d3js.org">here</a> </p>
+							</section>
+							<section class="software">
+								<h3>Vega (Github)</h3>
+								<figure>
+									<cite><img src="img/vegagithub-logo.png" alt="Github Logo" /></cite>
+									<figcaption>https://crossbrowsertesting.com/design/images/github-logo.png</figcaption>
+								</figure>
+								<p>Vega, brought to you by github, is a library used to create, save, and share data visualisation designs in the output form of HTML5 Canvas and SVG. For more information on Vege, click <a href="vega.github.io">here</a></p>
+							</section>
+							<section class="software">
+								<h3>Processing</h3>
+								<figure>
+									<cite><img src="img/processinglogo.jpg" alt="Processing Logo" /></cite>
+									<figcaption>https://forum.processing.org/processing-org.jpg</figcaption>
+								</figure>
+								<p>Processing is a software and laguage for learning how to code under the context of visual arts. Processing is a software that integrates the uses of visual data with programming to maximize the understanding of data. For more information on Processing, click <a href="www.processing.org">here</a></p>
+							</section>
+						</section>
+						<div class="clearfix"></div> <!--Used to seperate the two sections (Desktop Software and Development library)-->
+					</article>
+				</div>
+				
+				<div class="aside">
+					<aside>
+						<section>
+							<p>Now that a better understanding of data visualisation is obtained, please check out the rest of the website to learn more. A lot of information is available. </p>
 
-		<aside>
-			<p>Are you looking for Data Visualisation experts to help you with your business? Click <a href="https://www.upwork.com/o/profiles/browse/?q=data%20visualization%20designer%20infographics">here</a> to find freelancers who could help with your needs. </p>
-		</aside>
-		
-		<footer>
-			<p><small>&copy 2016 NISHANT TECKCHANDANI CSD 2500 COURSEWORK 2, ALL RIGHTS RESERVED</small><!--HTML text element no. 12 = <small>-->
-			<small><time datetime ="2016-12-18" pubdate="pubdate">December 18th, 2016</small></time></p><!--HTML text element no.13 = <time>-->
-		</footer>
+							<address>
+								<p>Feel free to contact us through our <a href = "contact-form.html">contact form</a>.</p>
+							</address><!--HTML text element no.11 = <address>-->
+
+							<p>Are you looking for Data Visualisation experts to help you with your business? Click <a href="https://www.upwork.com/o/profiles/browse/?q=data%20visualization%20designer%20infographics">here</a> to find freelancers who could help with your needs. </p>
+						</section>
+					</aside>
+				</div>
+			</div>
+
+			<div class="footer">
+				<footer>
+					<p><small>&copy 2016 NISHANT TECKCHANDANI CSD 2500 COURSEWORK 2, ALL RIGHTS RESERVED</small><!--HTML text element no. 12 = <small>-->
+					<small><time datetime ="2017-02-26" pubdate="pubdate">February 27th, 2017</small></time></p><!--HTML text element no.13 = <time>-->
+				</footer>
+			</div>
+		</div>
 	</body>
 </html>
